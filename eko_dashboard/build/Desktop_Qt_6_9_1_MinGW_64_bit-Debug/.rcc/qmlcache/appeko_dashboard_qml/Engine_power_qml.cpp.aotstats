@@ -1,0 +1,28 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 19,
+                        "durationMicroseconds": 379,
+                        "errorMessage": "Cannot access value for name engine_power",
+                        "functionName": "text",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 71,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 11
+                    }
+                ],
+                "filePath": "C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/qml/Engine_power.qml"
+            }
+        ],
+        "moduleId": "eko_dashboard(appeko_dashboard)"
+    }
+]

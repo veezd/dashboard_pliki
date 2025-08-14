@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="/qt/qml/eko_dashboard/">
+    <file alias="qml/Main.qml">C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/qml/Main.qml</file>
+    <file alias="qml/BatteryLevel.qml">C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/qml/BatteryLevel.qml</file>
+    <file alias="qml/Dashboard.qml">C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/qml/Dashboard.qml</file>
+    <file alias="qml/Current_gear.qml">C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/qml/Current_gear.qml</file>
+    <file alias="qml/Mileage.qml">C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/qml/Mileage.qml</file>
+    <file alias="qml/Driving_mode.qml">C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/qml/Driving_mode.qml</file>
+    <file alias="qml/Clock.qml">C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/qml/Clock.qml</file>
+    <file alias="qml/Speedometer.qml">C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/qml/Speedometer.qml</file>
+    <file alias="qml/Temperature.qml">C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/qml/Temperature.qml</file>
+    <file alias="qml/Blinker.qml">C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/qml/Blinker.qml</file>
+    <file alias="qml/Engine_power.qml">C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/qml/Engine_power.qml</file>
+    <file alias="qml/Lights.qml">C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/qml/Lights.qml</file>
+    <file alias="qml/Warnings.qml">C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/qml/Warnings.qml</file>
+  </qresource>
+</RCC>
+

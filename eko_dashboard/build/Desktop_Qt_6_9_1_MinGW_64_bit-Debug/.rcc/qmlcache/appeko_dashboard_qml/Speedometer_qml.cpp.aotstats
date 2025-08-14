@@ -1,0 +1,76 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 13,
+                        "durationMicroseconds": 184,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 6
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 18,
+                        "durationMicroseconds": 128,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 43,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 364,
+                        "errorMessage": "Cannot access value for name speedometer",
+                        "functionName": "text",
+                        "line": 18
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 48,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "Cannot access value for name speedometer",
+                        "functionName": "angle",
+                        "line": 36
+                    }
+                ],
+                "filePath": "C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/qml/Speedometer.qml"
+            }
+        ],
+        "moduleId": "eko_dashboard(appeko_dashboard)"
+    }
+]

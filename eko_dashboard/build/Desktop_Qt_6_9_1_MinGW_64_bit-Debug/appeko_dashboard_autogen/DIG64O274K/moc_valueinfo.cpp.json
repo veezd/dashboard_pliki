@@ -1,0 +1,57 @@
+{
+    "classes": [
+        {
+            "className": "ValueInfo",
+            "lineNumber": 6,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newValue",
+                            "type": "QVariant"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "setValue",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "value",
+                    "notify": "valueChanged",
+                    "read": "value",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariant",
+                    "user": false,
+                    "write": "setValue"
+                }
+            ],
+            "qualifiedClassName": "ValueInfo",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "valueChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "valueinfo.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ac30d2411e7c473a0d46.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "eko_dashboard",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-6ffc875f1276cf75f0b6.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-170c1f76f3fc2451218f.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-8f1b2fd4ed54e1824c47.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-ec4192fe2bc6f6f3e53d.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-b3190a480b92cd5456b1.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appeko_dashboard::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appeko_dashboard-Debug-75b404f12c0771052738.json",
+					"name" : "appeko_dashboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appeko_dashboard_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appeko_dashboard_autogen-Debug-b5587ab27bc922f886a1.json",
+					"name" : "appeko_dashboard_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appeko_dashboard_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appeko_dashboard_autogen_timestamp_deps-Debug-b1b74519fd0e85afe43c.json",
+					"name" : "appeko_dashboard_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appeko_dashboard_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appeko_dashboard_copy_qml-Debug-e027384b4cea4ab6e8d4.json",
+					"name" : "appeko_dashboard_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appeko_dashboard_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appeko_dashboard_copy_res-Debug-1738098df158314f6ac9.json",
+					"name" : "appeko_dashboard_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appeko_dashboard_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appeko_dashboard_qmlimportscan-Debug-deea6dab7309324fed4c.json",
+					"name" : "appeko_dashboard_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appeko_dashboard_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appeko_dashboard_qmllint-Debug-1f452bf62377ac5566c7.json",
+					"name" : "appeko_dashboard_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appeko_dashboard_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appeko_dashboard_qmllint_json-Debug-183e251e9da4071b7c2e.json",
+					"name" : "appeko_dashboard_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appeko_dashboard_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appeko_dashboard_qmllint_module-Debug-3728b77fd962d333995e.json",
+					"name" : "appeko_dashboard_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appeko_dashboard_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appeko_dashboard_qmltyperegistration-Debug-ff688ad29a41ce45a4ce.json",
+					"name" : "appeko_dashboard_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appeko_dashboard_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appeko_dashboard_aotstats_target-Debug-a4f0e6b18ce10c015f52.json",
+					"name" : "module_appeko_dashboard_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug",
+		"source" : "C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

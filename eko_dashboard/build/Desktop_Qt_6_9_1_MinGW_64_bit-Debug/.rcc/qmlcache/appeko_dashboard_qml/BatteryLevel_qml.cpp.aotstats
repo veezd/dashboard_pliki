@@ -1,0 +1,60 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 191,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 152,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 27
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 196,
+                        "errorMessage": "Cannot access value for name battery",
+                        "functionName": "height",
+                        "line": 28
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 199,
+                        "errorMessage": "Cannot access value for name battery",
+                        "functionName": "text",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 46
+                    }
+                ],
+                "filePath": "C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/qml/BatteryLevel.qml"
+            }
+        ],
+        "moduleId": "eko_dashboard(appeko_dashboard)"
+    }
+]

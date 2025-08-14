@@ -1,0 +1,20 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 172,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 10
+                    }
+                ],
+                "filePath": "C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/qml/Current_gear.qml"
+            }
+        ],
+        "moduleId": "eko_dashboard(appeko_dashboard)"
+    }
+]

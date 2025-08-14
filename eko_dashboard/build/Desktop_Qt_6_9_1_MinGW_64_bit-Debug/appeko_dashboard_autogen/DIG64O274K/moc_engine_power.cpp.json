@@ -1,0 +1,43 @@
+{
+    "classes": [
+        {
+            "className": "Engine_power",
+            "lineNumber": 5,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "power",
+                    "notify": "powerChanged",
+                    "read": "power",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setPower"
+                }
+            ],
+            "qualifiedClassName": "Engine_power",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "powerChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "engine_power.h",
+    "outputRevision": 69
+}

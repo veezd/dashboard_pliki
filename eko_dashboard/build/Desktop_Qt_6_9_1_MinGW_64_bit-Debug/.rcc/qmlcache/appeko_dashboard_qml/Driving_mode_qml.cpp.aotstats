@@ -1,0 +1,36 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 192,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 9
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 19,
+                        "durationMicroseconds": 1588,
+                        "errorMessage": "Cannot access value for name drivemode",
+                        "functionName": "text",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 77,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 12
+                    }
+                ],
+                "filePath": "C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/qml/Driving_mode.qml"
+            }
+        ],
+        "moduleId": "eko_dashboard(appeko_dashboard)"
+    }
+]

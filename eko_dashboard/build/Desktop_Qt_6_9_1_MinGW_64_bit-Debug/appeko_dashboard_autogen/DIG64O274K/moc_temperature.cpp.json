@@ -1,0 +1,43 @@
+{
+    "classes": [
+        {
+            "className": "Temperature",
+            "lineNumber": 4,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "temp_value",
+                    "notify": "temp_valueChanged",
+                    "read": "temp_value",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "temp_setValue"
+                }
+            ],
+            "qualifiedClassName": "Temperature",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "temp_valueChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "temperature.h",
+    "outputRevision": 69
+}
