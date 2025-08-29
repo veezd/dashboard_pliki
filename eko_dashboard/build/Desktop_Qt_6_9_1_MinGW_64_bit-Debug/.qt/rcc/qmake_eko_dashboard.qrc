@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/eko_dashboard">
-    <file alias="qmldir">C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/eko_dashboard/qmldir</file>
-  </qresource>
-</RCC>
-

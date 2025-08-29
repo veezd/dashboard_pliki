@@ -1,3 +1,0 @@
-C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appeko_dashboard_autogen/include/../DIG64O274K/moc_blinker.cpp.json
-C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appeko_dashboard_autogen/include/../DIG64O274K/moc_clock.cpp.json
-C:/Users/igorl/Desktop/Ekoenergia/dashboard/eko_dashboard/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appeko_dashboard_autogen/include/../DIG64O274K/moc_valueinfo.cpp.json
