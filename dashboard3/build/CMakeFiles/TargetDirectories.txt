@@ -1,0 +1,10 @@
+/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles/appeko_dashboard.dir
+/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles/appeko_dashboard_qmlimportscan.dir
+/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles/edit_cache.dir
+/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles/rebuild_cache.dir
+/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles/list_install_components.dir
+/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles/install.dir
+/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles/install/local.dir
+/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles/install/strip.dir
+/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles/appeko_dashboard_autogen_timestamp_deps.dir
+/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles/appeko_dashboard_autogen.dir

@@ -1,0 +1,9 @@
+-rootPath
+/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3
+-cmake-output
+-output-file
+/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/.qt/qml_imports/appeko_dashboard_conf.cmake
+-importPath
+/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build
+-importPath
+/home/igor/Qt/6.9.2/gcc_64/qml

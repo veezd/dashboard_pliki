@@ -1,15 +1,15 @@
 #ifndef VALUEINFO_H
 #define VALUEINFO_H
-#include <QObject>
 
-#include <QVariant>
+#include "includes.h"
+
 class ValueInfo : public QObject {
     Q_OBJECT
     Q_PROPERTY(QVariant value READ value WRITE setValue NOTIFY valueChanged)
 
 public:
-    explicit ValueInfo(const QVariant defaultType, QObject *parent = nullptr) : QObject(parent), value_(defaultType) {}
-
+    explicit ValueInfo(const QVariant defaultType = 0, QObject *parent = nullptr) : QObject(parent) , value_(defaultType) {}
+    // Jakby byl jakis problem z typami ValueInfo to bym sie przyjrzal konstruktorowi. 
     QVariant value() const {return value_;}
     Q_INVOKABLE void setValue(QVariant newValue);
 

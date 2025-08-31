@@ -1,9 +1,7 @@
 #ifndef CLOCK_H
 #define CLOCK_H
 
-#include <QObject>
-#include <QTimer>
-#include <QTime>
+#include "includes.h"
 
 class Clock : public QObject {
     Q_OBJECT

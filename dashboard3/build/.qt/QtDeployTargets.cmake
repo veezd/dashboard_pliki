@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appeko_dashboard_FILE /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/appeko_dashboard)
+set(__QT_DEPLOY_TARGET_appeko_dashboard_TYPE EXECUTABLE)

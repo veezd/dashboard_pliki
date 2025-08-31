@@ -1,17 +1,46 @@
-#include <QGuiApplication>
-#include <QQmlApplicationEngine>
-#include <QQmlContext>
-
-#include "clock.h"
-#include "valueinfo.h"
-#include "blinker.h"
+#include <iostream>
+#include <iomanip>
+#include "includes.h"
+#include "system.h"
 
 int main(int argc, char *argv[]) {
     QGuiApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
 
-    Clock clock_cpp;
+    //test a(&engine);
+    //System system(&engine, "vcan0" );
+    
+    CAN can_test("vcan0");
+    /*
+    struct can_frame {
+        canid_t can_id;  /* 32 bit CAN_ID + EFF/RTR/ERR flags 
+        union {
+                /* CAN frame payload length in byte (0 .. CAN_MAX_DLEN)
+                 * was previously named can_dlc so we need to carry that
+                 * name for legacy support
+                 
+                __u8 len;
+                __u8 can_dlc; /* deprecated 
+        };
+        __u8    __pad;   /* padding 
+        __u8    __res0;  /* reserved / padding 
+        __u8    len8_dlc; /* optional DLC for 8 byte payload length (9 .. 15) 
+        __u8    data[8] __attribute__((aligned(8))); */
+
+    while(true){
+    can_frame frame = can_test.readFrame();
+    std::cout << "ID "<< std::hex << frame.can_id << std::endl;
+    std::cout << "DLC " << static_cast<int>(frame.can_dlc) << std::endl;
+    std::cout << "Data: ";
+    for (int i = 0; i < frame.can_dlc; i++) {
+        std::cout << std::hex << std::uppercase
+                  << std::setw(2) << std::setfill('0')
+                  << static_cast<int>(frame.data[i]) << " ";
+    }
+    std::cout << std::endl;
+}
+    /*Clock clock_cpp;
     engine.rootContext()->setContextProperty("clock", &clock_cpp);
 
     ValueInfo battery_cpp(QVariant::fromValue<int>(0));
@@ -76,9 +105,9 @@ int main(int argc, char *argv[]) {
     engine.rootContext()->setContextProperty("engine_failure", &engine_failure_cpp);
     engine.rootContext()->setContextProperty("power_failure", &power_failure_cpp);
     engine.rootContext()->setContextProperty("cruise_control", &cruise_control_cpp);
+    */
 
-
-    engine.load(QUrl("qrc:/qml/Main.qml"));
+    //engine.load(QUrl("qrc:/qml/Main.qml"));
 
     if (engine.rootObjects().isEmpty())
         return -1;

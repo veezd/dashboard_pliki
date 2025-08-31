@@ -4,7 +4,8 @@ project(eko_dash2 VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-
+#set(Qt6_DIR home/igor/Qt/6.9.2/gcc_64/lib/cmake)
+set(CMAKE_PREFIX_PATH /home/igor/Qt/6.9.2/gcc_64)
 find_package(Qt6 REQUIRED COMPONENTS Quick)
 
 qt_standard_project_setup(REQUIRES 6.8)
@@ -16,9 +17,16 @@ qt_add_executable(appeko_dashboard
     src/blinker.cpp
     src/clock.cpp
     src/valueinfo.cpp
+    src/can.cpp
+    src/system.cpp
     inc/blinker.h
     inc/clock.h
     inc/valueinfo.h
+    inc/can.h
+    inc/system.h
+    inc/includes.h
+    inc/dbc.h
+
 )
 
 target_include_directories(appeko_dashboard
