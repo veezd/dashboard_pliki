@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/blinker.cpp" "CMakeFiles/appeko_dashboard.dir/src/blinker.cpp.o" "gcc" "CMakeFiles/appeko_dashboard.dir/src/blinker.cpp.o.d"
   "/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/can.cpp" "CMakeFiles/appeko_dashboard.dir/src/can.cpp.o" "gcc" "CMakeFiles/appeko_dashboard.dir/src/can.cpp.o.d"
   "/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/clock.cpp" "CMakeFiles/appeko_dashboard.dir/src/clock.cpp.o" "gcc" "CMakeFiles/appeko_dashboard.dir/src/clock.cpp.o.d"
+  "/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/dbc.cpp" "CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.o" "gcc" "CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.o.d"
   "/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/main.cpp" "CMakeFiles/appeko_dashboard.dir/src/main.cpp.o" "gcc" "CMakeFiles/appeko_dashboard.dir/src/main.cpp.o.d"
   "/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/system.cpp" "CMakeFiles/appeko_dashboard.dir/src/system.cpp.o" "gcc" "CMakeFiles/appeko_dashboard.dir/src/system.cpp.o.d"
   "/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/valueinfo.cpp" "CMakeFiles/appeko_dashboard.dir/src/valueinfo.cpp.o" "gcc" "CMakeFiles/appeko_dashboard.dir/src/valueinfo.cpp.o.d"

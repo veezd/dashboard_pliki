@@ -2,7 +2,6 @@ CMakeFiles/appeko_dashboard.dir/src/clock.cpp.o: \
  /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/clock.cpp \
  /usr/include/stdc-predef.h \
  /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/clock.h \
- /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/includes.h \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QObject \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qobject.h \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qobjectdefs.h \
@@ -324,41 +323,8 @@ CMakeFiles/appeko_dashboard.dir/src/clock.cpp.o: \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qeventloop.h \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qdeadlinetimer.h \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qelapsedtimer.h \
- /usr/include/x86_64-linux-gnu/sys/socket.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
- /usr/include/x86_64-linux-gnu/bits/socket.h \
- /usr/include/x86_64-linux-gnu/bits/socket_type.h \
- /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
- /usr/include/x86_64-linux-gnu/asm/socket.h \
- /usr/include/asm-generic/socket.h /usr/include/linux/posix_types.h \
- /usr/include/linux/stddef.h \
- /usr/include/x86_64-linux-gnu/asm/posix_types.h \
- /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
- /usr/include/asm-generic/posix_types.h \
- /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
- /usr/include/asm-generic/bitsperlong.h \
- /usr/include/x86_64-linux-gnu/asm/sockios.h \
- /usr/include/asm-generic/sockios.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
- /usr/include/linux/can.h /usr/include/linux/types.h \
- /usr/include/x86_64-linux-gnu/asm/types.h \
- /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
- /usr/include/linux/socket.h /usr/include/linux/can/raw.h \
- /usr/include/net/if.h /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
- /usr/include/x86_64-linux-gnu/bits/environments.h \
- /usr/include/x86_64-linux-gnu/bits/confname.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/x86_64-linux-gnu/sys/ioctl.h \
- /usr/include/x86_64-linux-gnu/bits/ioctls.h \
- /usr/include/x86_64-linux-gnu/asm/ioctls.h \
- /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h \
- /usr/include/x86_64-linux-gnu/asm/ioctl.h \
- /usr/include/asm-generic/ioctl.h \
- /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
- /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
+ /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QString \
+ /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qstring.h \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QTime \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qdatetime.h \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qcalendar.h \
@@ -389,62 +355,4 @@ CMakeFiles/appeko_dashboard.dir/src/clock.cpp.o: \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qvarlengtharray.h \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/q23utility.h \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/q20utility.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QVariant \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qvariant.h \
- /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/blinker.h \
- /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/can.h \
- /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/clock.h \
- /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/dbc.h \
- /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/valueinfo.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtGui/QGuiApplication \
- /home/igor/Qt/6.9.2/gcc_64/include/QtGui/qguiapplication.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtGui/qtguiglobal.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtGui/qtgui-config.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtGui/qtguiexports.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qcoreapplication.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qcoreevent.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qnativeinterface.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qcoreapplication_platform.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtGui/qwindowdefs.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtGui/qinputmethod.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qpoint.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qsize.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qmargins.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtGui/qguiapplication_platform.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtGui/qguiapplication.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/QQmlApplicationEngine \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmlapplicationengine.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmlengine.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qurl.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qjsengine.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtimezone.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qdatetime.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qjsvalue.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qtqmlglobal.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qtqml-config.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtNetwork/qtnetworkexports.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qtqmlexports.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qjsmanagedvalue.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qjsprimitivevalue.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qjsnumbercoercion.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmldebug.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqml.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmlprivate.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmllist.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmlparserstatus.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmlpropertyvaluesource.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qmetaobject.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qpointer.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qversionnumber.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qspan.h \
- /usr/include/c++/9/cassert \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/q20iterator.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtyperevision.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmlregistration.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQmlIntegration/qqmlintegration.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmlerror.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmlabstracturlinterceptor.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/QQmlContext \
- /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmlcontext.h
+ /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QDate

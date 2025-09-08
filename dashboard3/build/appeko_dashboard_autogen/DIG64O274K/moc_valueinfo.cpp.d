@@ -1,23 +1,13 @@
 /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/appeko_dashboard_autogen/DIG64O274K/moc_valueinfo.cpp: /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/valueinfo.h \
   /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/appeko_dashboard_autogen/moc_predefs.h \
-  /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/blinker.h \
-  /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/can.h \
-  /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/clock.h \
-  /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/dbc.h \
-  /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/includes.h \
-  /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/valueinfo.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QObject \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QTime \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QTimer \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QVariant \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/q17memory.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/q20functional.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/q20iterator.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/q20memory.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/q20type_traits.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/q20utility.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/q23utility.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qabstracteventdispatcher.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qalgorithms.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qanystringview.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qarraydata.h \
@@ -27,13 +17,11 @@
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qatomic.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qbasicatomic.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qbasictimer.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qbindingstorage.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qbytearray.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qbytearraylist.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qbytearrayview.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qcalendar.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qchar.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qcompare.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qcompare_impl.h \
@@ -45,16 +33,9 @@
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qcontainerinfo.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qcontainertools_impl.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qcontiguouscache.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qcoreapplication.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qcoreapplication_platform.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qcoreevent.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qdarwinhelpers.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qdatastream.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qdatetime.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qdeadlinetimer.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qdebug.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qelapsedtimer.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qeventloop.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qexceptionhandling.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qflags.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qfloat16.h \
@@ -71,18 +52,14 @@
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qiterator.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qlatin1stringview.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qlist.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qlocale.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qlogging.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qmalloc.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qmap.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qmargins.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qmath.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qmetacontainer.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qmetaobject.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qmetatype.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qminmax.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qnamespace.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qnativeinterface.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qnumeric.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qobject.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qobject_impl.h \
@@ -90,8 +67,6 @@
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qoverload.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qpair.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qpoint.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qpointer.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qprocessordetection.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qrefcount.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qscopedpointer.h \
@@ -101,8 +76,6 @@
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qshareddata_impl.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qsharedpointer.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qsize.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qspan.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qstdlibdetection.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qstring.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qstringalgorithms.h \
@@ -130,8 +103,6 @@
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtextstream.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtformat_impl.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtimer.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtimezone.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtmetamacros.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtnoop.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
@@ -141,61 +112,16 @@
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtversion.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtversionchecks.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtypeinfo.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtyperevision.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtypes.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qurl.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qutf8stringview.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qvariant.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qvarlengtharray.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qversionnumber.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qversiontagging.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qxptype_traits.h \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qyieldcpu.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtGui/QGuiApplication \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtGui/qguiapplication.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtGui/qguiapplication_platform.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtGui/qinputmethod.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtGui/qtgui-config.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtGui/qtguiexports.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtGui/qtguiglobal.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtNetwork/qtnetworkexports.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/QQmlApplicationEngine \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/QQmlContext \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qjsengine.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qjsmanagedvalue.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qjsnumbercoercion.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qjsprimitivevalue.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qjsvalue.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqml.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmlabstracturlinterceptor.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmlapplicationengine.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmlcontext.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmldebug.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmlengine.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmlerror.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmllist.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmlparserstatus.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmlprivate.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmlpropertyvaluesource.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmlregistration.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qtqml-config.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qtqmlexports.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qtqmlglobal.h \
-  /home/igor/Qt/6.9.2/gcc_64/include/QtQmlIntegration/qqmlintegration.h \
   /usr/include/alloca.h \
-  /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/int-ll64.h \
-  /usr/include/asm-generic/ioctl.h \
-  /usr/include/asm-generic/ioctls.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/socket.h \
-  /usr/include/asm-generic/sockios.h \
-  /usr/include/asm-generic/types.h \
   /usr/include/assert.h \
   /usr/include/c++/9/algorithm \
   /usr/include/c++/9/array \
@@ -283,7 +209,6 @@
   /usr/include/c++/9/bits/unordered_set.h \
   /usr/include/c++/9/bits/uses_allocator.h \
   /usr/include/c++/9/bits/vector.tcc \
-  /usr/include/c++/9/cassert \
   /usr/include/c++/9/cctype \
   /usr/include/c++/9/cerrno \
   /usr/include/c++/9/chrono \
@@ -344,17 +269,9 @@
   /usr/include/errno.h \
   /usr/include/features.h \
   /usr/include/limits.h \
-  /usr/include/linux/can.h \
-  /usr/include/linux/can/raw.h \
   /usr/include/linux/errno.h \
-  /usr/include/linux/ioctl.h \
   /usr/include/linux/limits.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/socket.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/linux/types.h \
   /usr/include/locale.h \
-  /usr/include/net/if.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -364,46 +281,27 @@
   /usr/include/string.h \
   /usr/include/strings.h \
   /usr/include/time.h \
-  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/ioctl.h \
-  /usr/include/x86_64-linux-gnu/asm/ioctls.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
-  /usr/include/x86_64-linux-gnu/asm/types.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
-  /usr/include/x86_64-linux-gnu/bits/ioctls.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
   /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
@@ -432,9 +330,7 @@
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
@@ -445,7 +341,6 @@
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
@@ -466,10 +361,7 @@
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/ioctl.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \

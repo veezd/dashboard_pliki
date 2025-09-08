@@ -950,12 +950,6 @@
 			null
 		],
 		[
-			"/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/includes.h",
-			"MU",
-			"DIG64O274K/moc_includes.cpp",
-			null
-		],
-		[
 			"/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/system.h",
 			"MU",
 			"DIG64O274K/moc_system.cpp",
@@ -1058,6 +1052,11 @@
 		],
 		[
 			"/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/clock.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/dbc.cpp",
 			"MU",
 			null
 		],

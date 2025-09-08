@@ -1,6 +1,88 @@
 #include "system.h"
+#include <QQmlContext>
+
+double decodeRawData(const deviceInfo* devInfo) {
+    if (devInfo->specs.dataType == "uint") { return static_cast<uint>(devInfo->rawData) * devInfo->specs.factor + devInfo->specs.offset; } 
+    if (devInfo->specs.dataType == "int") { return static_cast<int>(devInfo->rawData) * devInfo->specs.factor + devInfo->specs.offset; } 
+    if (devInfo->specs.dataType == "char") { return static_cast<char>(devInfo->rawData) * devInfo->specs.factor + devInfo->specs.offset; } 
+    if (devInfo->specs.dataType == "bool") { return static_cast<bool>(devInfo->rawData) * devInfo->specs.factor + devInfo->specs.offset; } // Zakladam ze tu factor itd nie bedzie potrzebny
+    else {
+        std::cout << "Nieznany typ sygnału" << std::endl;
+        return 0.0;
+    }
+}
+
+void passToSystem(deviceInfo *devInfo, System* system){
+    switch (devInfo->id) {
+    case 0x10: { // Battery
+        system->battery.setValue(decodeRawData(devInfo));
+        break;
+    }
+    case 0x01: { // Temperature
+        system->temperature.setValue(decodeRawData(devInfo));
+        break;
+    }
+    case 0x02: { // Mileage
+        system->mileage.setValue(decodeRawData(devInfo));
+        break;
+    }
+    case 0x03: { // Speedometer
+        system->speedometer.setValue(decodeRawData(devInfo));
+        break;
+    }
+    case 0x04: { // Drivemode (char)
+        system->drivemode.setValue(decodeRawData(devInfo));
+        break;
+    }
+    case 0x05: { // Engine power
+        system->engine_power.setValue(decodeRawData(devInfo));
+        break;
+    }
+    case 0x06: { // Low beam
+        system->low_beam.setValue(decodeRawData(devInfo));
+        break;
+    }
+    case 0x07: { // High beam
+        system->high_beam.setValue(decodeRawData(devInfo));
+        break;
+    }
+    case 0x08: { // Parking lights
+        system->parking_lights.setValue(decodeRawData(devInfo));
+        break;
+    }
+    case 0x09: { // Hazard lights
+        system->hazard_lights.setValue(decodeRawData(devInfo));
+        break;
+    }
+    case 0x0A: { // Right blinker
+        system->blinkerRight.newState(decodeRawData(devInfo));
+        break;
+    }
+    case 0x0B: { // Left blinker
+        system->blinkerLeft.newState(decodeRawData(devInfo));
+        break;
+    }
+    case 0x0C: { // High temperature warning
+        system->high_temperature.setValue(decodeRawData(devInfo));
+        break;
+    }
+    case 0x0D: { // Engine failure
+        system->engine_failure.setValue(decodeRawData(devInfo));
+        break;
+    }
+    case 0x0E: { // Power failure
+        system->power_failure.setValue(decodeRawData(devInfo));
+        break;
+    }
+    case 0x0F: { // Cruise control
+        system->cruise_control.setValue(decodeRawData(devInfo));
+        break;
+    }
+}
+}
 
 System::System(QQmlApplicationEngine* engine, const std::string &bus_name) :
+    run_(false),
     can(bus_name), 
     battery(QVariant::fromValue<int>(0)), 
     temperature(QVariant::fromValue<int>(0)),
@@ -37,4 +119,16 @@ System::System(QQmlApplicationEngine* engine, const std::string &bus_name) :
     engine->rootContext()->setContextProperty("power_failure", &power_failure);
     engine->rootContext()->setContextProperty("cruise_control", &cruise_control);
     //engine.rootContext()->setContextProperty("open_door", &open_door_cpp);
+}
+
+
+void System::start() {
+    run_ = true;
+    deviceInfo devInfo;
+    while (run_) {
+        devInfo = can.readFrame();
+        if (devInfo.id != 0) { // Jesli odczytane id jest rozne od 0 to znaczy ze ramka byla poprawna
+            passToSystem(&devInfo, this);
+        }
+    }
 }

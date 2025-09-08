@@ -333,6 +333,30 @@ src/clock.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appeko_dashboard.dir/build.make CMakeFiles/appeko_dashboard.dir/src/clock.cpp.s
 .PHONY : src/clock.cpp.s
 
+src/dbc.o: src/dbc.cpp.o
+.PHONY : src/dbc.o
+
+# target to build an object file
+src/dbc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appeko_dashboard.dir/build.make CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.o
+.PHONY : src/dbc.cpp.o
+
+src/dbc.i: src/dbc.cpp.i
+.PHONY : src/dbc.i
+
+# target to preprocess a source file
+src/dbc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appeko_dashboard.dir/build.make CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.i
+.PHONY : src/dbc.cpp.i
+
+src/dbc.s: src/dbc.cpp.s
+.PHONY : src/dbc.s
+
+# target to generate assembly for a file
+src/dbc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appeko_dashboard.dir/build.make CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.s
+.PHONY : src/dbc.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -436,6 +460,9 @@ help:
 	@echo "... src/clock.o"
 	@echo "... src/clock.i"
 	@echo "... src/clock.s"
+	@echo "... src/dbc.o"
+	@echo "... src/dbc.i"
+	@echo "... src/dbc.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

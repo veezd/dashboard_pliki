@@ -13,20 +13,19 @@ qt_standard_project_setup(REQUIRES 6.8)
 set(CMAKE_AUTORCC ON)
 qt_add_executable(appeko_dashboard
     resources.qrc
-    src/main.cpp
-    src/blinker.cpp
-    src/clock.cpp
-    src/valueinfo.cpp
-    src/can.cpp
-    src/system.cpp
-    inc/blinker.h
-    inc/clock.h
-    inc/valueinfo.h
-    inc/can.h
-    inc/system.h
-    inc/includes.h
     inc/dbc.h
-
+    src/dbc.cpp
+    inc/can.h
+    src/can.cpp
+    inc/blinker.h
+    src/blinker.cpp
+    inc/clock.h
+    src/clock.cpp
+    inc/valueinfo.h
+    src/valueinfo.cpp
+    inc/system.h
+    src/system.cpp
+    src/main.cpp
 )
 
 target_include_directories(appeko_dashboard

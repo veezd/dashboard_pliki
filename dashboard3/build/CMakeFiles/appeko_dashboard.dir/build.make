@@ -129,24 +129,38 @@ CMakeFiles/appeko_dashboard.dir/appeko_dashboard_autogen/mocs_compilation.cpp.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appeko_dashboard.dir/appeko_dashboard_autogen/mocs_compilation.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/appeko_dashboard_autogen/mocs_compilation.cpp -o CMakeFiles/appeko_dashboard.dir/appeko_dashboard_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/appeko_dashboard.dir/src/main.cpp.o: CMakeFiles/appeko_dashboard.dir/flags.make
-CMakeFiles/appeko_dashboard.dir/src/main.cpp.o: /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/main.cpp
-CMakeFiles/appeko_dashboard.dir/src/main.cpp.o: CMakeFiles/appeko_dashboard.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/appeko_dashboard.dir/src/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appeko_dashboard.dir/src/main.cpp.o -MF CMakeFiles/appeko_dashboard.dir/src/main.cpp.o.d -o CMakeFiles/appeko_dashboard.dir/src/main.cpp.o -c /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/main.cpp
+CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.o: CMakeFiles/appeko_dashboard.dir/flags.make
+CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.o: /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/dbc.cpp
+CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.o: CMakeFiles/appeko_dashboard.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.o -MF CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.o.d -o CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.o -c /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/dbc.cpp
 
-CMakeFiles/appeko_dashboard.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appeko_dashboard.dir/src/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/main.cpp > CMakeFiles/appeko_dashboard.dir/src/main.cpp.i
+CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/dbc.cpp > CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.i
 
-CMakeFiles/appeko_dashboard.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appeko_dashboard.dir/src/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/main.cpp -o CMakeFiles/appeko_dashboard.dir/src/main.cpp.s
+CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/dbc.cpp -o CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.s
+
+CMakeFiles/appeko_dashboard.dir/src/can.cpp.o: CMakeFiles/appeko_dashboard.dir/flags.make
+CMakeFiles/appeko_dashboard.dir/src/can.cpp.o: /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/can.cpp
+CMakeFiles/appeko_dashboard.dir/src/can.cpp.o: CMakeFiles/appeko_dashboard.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/appeko_dashboard.dir/src/can.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appeko_dashboard.dir/src/can.cpp.o -MF CMakeFiles/appeko_dashboard.dir/src/can.cpp.o.d -o CMakeFiles/appeko_dashboard.dir/src/can.cpp.o -c /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/can.cpp
+
+CMakeFiles/appeko_dashboard.dir/src/can.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appeko_dashboard.dir/src/can.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/can.cpp > CMakeFiles/appeko_dashboard.dir/src/can.cpp.i
+
+CMakeFiles/appeko_dashboard.dir/src/can.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appeko_dashboard.dir/src/can.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/can.cpp -o CMakeFiles/appeko_dashboard.dir/src/can.cpp.s
 
 CMakeFiles/appeko_dashboard.dir/src/blinker.cpp.o: CMakeFiles/appeko_dashboard.dir/flags.make
 CMakeFiles/appeko_dashboard.dir/src/blinker.cpp.o: /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/blinker.cpp
 CMakeFiles/appeko_dashboard.dir/src/blinker.cpp.o: CMakeFiles/appeko_dashboard.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/appeko_dashboard.dir/src/blinker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/appeko_dashboard.dir/src/blinker.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appeko_dashboard.dir/src/blinker.cpp.o -MF CMakeFiles/appeko_dashboard.dir/src/blinker.cpp.o.d -o CMakeFiles/appeko_dashboard.dir/src/blinker.cpp.o -c /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/blinker.cpp
 
 CMakeFiles/appeko_dashboard.dir/src/blinker.cpp.i: cmake_force
@@ -160,7 +174,7 @@ CMakeFiles/appeko_dashboard.dir/src/blinker.cpp.s: cmake_force
 CMakeFiles/appeko_dashboard.dir/src/clock.cpp.o: CMakeFiles/appeko_dashboard.dir/flags.make
 CMakeFiles/appeko_dashboard.dir/src/clock.cpp.o: /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/clock.cpp
 CMakeFiles/appeko_dashboard.dir/src/clock.cpp.o: CMakeFiles/appeko_dashboard.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/appeko_dashboard.dir/src/clock.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/appeko_dashboard.dir/src/clock.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appeko_dashboard.dir/src/clock.cpp.o -MF CMakeFiles/appeko_dashboard.dir/src/clock.cpp.o.d -o CMakeFiles/appeko_dashboard.dir/src/clock.cpp.o -c /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/clock.cpp
 
 CMakeFiles/appeko_dashboard.dir/src/clock.cpp.i: cmake_force
@@ -174,7 +188,7 @@ CMakeFiles/appeko_dashboard.dir/src/clock.cpp.s: cmake_force
 CMakeFiles/appeko_dashboard.dir/src/valueinfo.cpp.o: CMakeFiles/appeko_dashboard.dir/flags.make
 CMakeFiles/appeko_dashboard.dir/src/valueinfo.cpp.o: /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/valueinfo.cpp
 CMakeFiles/appeko_dashboard.dir/src/valueinfo.cpp.o: CMakeFiles/appeko_dashboard.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/appeko_dashboard.dir/src/valueinfo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/appeko_dashboard.dir/src/valueinfo.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appeko_dashboard.dir/src/valueinfo.cpp.o -MF CMakeFiles/appeko_dashboard.dir/src/valueinfo.cpp.o.d -o CMakeFiles/appeko_dashboard.dir/src/valueinfo.cpp.o -c /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/valueinfo.cpp
 
 CMakeFiles/appeko_dashboard.dir/src/valueinfo.cpp.i: cmake_force
@@ -184,20 +198,6 @@ CMakeFiles/appeko_dashboard.dir/src/valueinfo.cpp.i: cmake_force
 CMakeFiles/appeko_dashboard.dir/src/valueinfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appeko_dashboard.dir/src/valueinfo.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/valueinfo.cpp -o CMakeFiles/appeko_dashboard.dir/src/valueinfo.cpp.s
-
-CMakeFiles/appeko_dashboard.dir/src/can.cpp.o: CMakeFiles/appeko_dashboard.dir/flags.make
-CMakeFiles/appeko_dashboard.dir/src/can.cpp.o: /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/can.cpp
-CMakeFiles/appeko_dashboard.dir/src/can.cpp.o: CMakeFiles/appeko_dashboard.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/appeko_dashboard.dir/src/can.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appeko_dashboard.dir/src/can.cpp.o -MF CMakeFiles/appeko_dashboard.dir/src/can.cpp.o.d -o CMakeFiles/appeko_dashboard.dir/src/can.cpp.o -c /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/can.cpp
-
-CMakeFiles/appeko_dashboard.dir/src/can.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appeko_dashboard.dir/src/can.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/can.cpp > CMakeFiles/appeko_dashboard.dir/src/can.cpp.i
-
-CMakeFiles/appeko_dashboard.dir/src/can.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appeko_dashboard.dir/src/can.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/can.cpp -o CMakeFiles/appeko_dashboard.dir/src/can.cpp.s
 
 CMakeFiles/appeko_dashboard.dir/src/system.cpp.o: CMakeFiles/appeko_dashboard.dir/flags.make
 CMakeFiles/appeko_dashboard.dir/src/system.cpp.o: /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/system.cpp
@@ -213,10 +213,24 @@ CMakeFiles/appeko_dashboard.dir/src/system.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appeko_dashboard.dir/src/system.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/system.cpp -o CMakeFiles/appeko_dashboard.dir/src/system.cpp.s
 
+CMakeFiles/appeko_dashboard.dir/src/main.cpp.o: CMakeFiles/appeko_dashboard.dir/flags.make
+CMakeFiles/appeko_dashboard.dir/src/main.cpp.o: /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/main.cpp
+CMakeFiles/appeko_dashboard.dir/src/main.cpp.o: CMakeFiles/appeko_dashboard.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/appeko_dashboard.dir/src/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appeko_dashboard.dir/src/main.cpp.o -MF CMakeFiles/appeko_dashboard.dir/src/main.cpp.o.d -o CMakeFiles/appeko_dashboard.dir/src/main.cpp.o -c /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/main.cpp
+
+CMakeFiles/appeko_dashboard.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appeko_dashboard.dir/src/main.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/main.cpp > CMakeFiles/appeko_dashboard.dir/src/main.cpp.i
+
+CMakeFiles/appeko_dashboard.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appeko_dashboard.dir/src/main.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/main.cpp -o CMakeFiles/appeko_dashboard.dir/src/main.cpp.s
+
 CMakeFiles/appeko_dashboard.dir/appeko_dashboard_autogen/EWIEGA46WW/qrc_resources.cpp.o: CMakeFiles/appeko_dashboard.dir/flags.make
 CMakeFiles/appeko_dashboard.dir/appeko_dashboard_autogen/EWIEGA46WW/qrc_resources.cpp.o: appeko_dashboard_autogen/EWIEGA46WW/qrc_resources.cpp
 CMakeFiles/appeko_dashboard.dir/appeko_dashboard_autogen/EWIEGA46WW/qrc_resources.cpp.o: CMakeFiles/appeko_dashboard.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/appeko_dashboard.dir/appeko_dashboard_autogen/EWIEGA46WW/qrc_resources.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/appeko_dashboard.dir/appeko_dashboard_autogen/EWIEGA46WW/qrc_resources.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appeko_dashboard.dir/appeko_dashboard_autogen/EWIEGA46WW/qrc_resources.cpp.o -MF CMakeFiles/appeko_dashboard.dir/appeko_dashboard_autogen/EWIEGA46WW/qrc_resources.cpp.o.d -o CMakeFiles/appeko_dashboard.dir/appeko_dashboard_autogen/EWIEGA46WW/qrc_resources.cpp.o -c /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/appeko_dashboard_autogen/EWIEGA46WW/qrc_resources.cpp
 
 CMakeFiles/appeko_dashboard.dir/appeko_dashboard_autogen/EWIEGA46WW/qrc_resources.cpp.i: cmake_force
@@ -230,24 +244,26 @@ CMakeFiles/appeko_dashboard.dir/appeko_dashboard_autogen/EWIEGA46WW/qrc_resource
 # Object files for target appeko_dashboard
 appeko_dashboard_OBJECTS = \
 "CMakeFiles/appeko_dashboard.dir/appeko_dashboard_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/appeko_dashboard.dir/src/main.cpp.o" \
+"CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.o" \
+"CMakeFiles/appeko_dashboard.dir/src/can.cpp.o" \
 "CMakeFiles/appeko_dashboard.dir/src/blinker.cpp.o" \
 "CMakeFiles/appeko_dashboard.dir/src/clock.cpp.o" \
 "CMakeFiles/appeko_dashboard.dir/src/valueinfo.cpp.o" \
-"CMakeFiles/appeko_dashboard.dir/src/can.cpp.o" \
 "CMakeFiles/appeko_dashboard.dir/src/system.cpp.o" \
+"CMakeFiles/appeko_dashboard.dir/src/main.cpp.o" \
 "CMakeFiles/appeko_dashboard.dir/appeko_dashboard_autogen/EWIEGA46WW/qrc_resources.cpp.o"
 
 # External object files for target appeko_dashboard
 appeko_dashboard_EXTERNAL_OBJECTS =
 
 appeko_dashboard: CMakeFiles/appeko_dashboard.dir/appeko_dashboard_autogen/mocs_compilation.cpp.o
-appeko_dashboard: CMakeFiles/appeko_dashboard.dir/src/main.cpp.o
+appeko_dashboard: CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.o
+appeko_dashboard: CMakeFiles/appeko_dashboard.dir/src/can.cpp.o
 appeko_dashboard: CMakeFiles/appeko_dashboard.dir/src/blinker.cpp.o
 appeko_dashboard: CMakeFiles/appeko_dashboard.dir/src/clock.cpp.o
 appeko_dashboard: CMakeFiles/appeko_dashboard.dir/src/valueinfo.cpp.o
-appeko_dashboard: CMakeFiles/appeko_dashboard.dir/src/can.cpp.o
 appeko_dashboard: CMakeFiles/appeko_dashboard.dir/src/system.cpp.o
+appeko_dashboard: CMakeFiles/appeko_dashboard.dir/src/main.cpp.o
 appeko_dashboard: CMakeFiles/appeko_dashboard.dir/appeko_dashboard_autogen/EWIEGA46WW/qrc_resources.cpp.o
 appeko_dashboard: CMakeFiles/appeko_dashboard.dir/build.make
 appeko_dashboard: /home/igor/Qt/6.9.2/gcc_64/lib/libQt6Quick.so.6.9.2
@@ -262,7 +278,7 @@ appeko_dashboard: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 appeko_dashboard: /home/igor/Qt/6.9.2/gcc_64/lib/libQt6Network.so.6.9.2
 appeko_dashboard: /home/igor/Qt/6.9.2/gcc_64/lib/libQt6Core.so.6.9.2
 appeko_dashboard: CMakeFiles/appeko_dashboard.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable appeko_dashboard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable appeko_dashboard"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/appeko_dashboard.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

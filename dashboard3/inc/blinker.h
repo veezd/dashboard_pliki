@@ -1,8 +1,8 @@
 #ifndef BLINKER_H
 #define BLINKER_H
 
-#include "includes.h"
-
+#include <QObject>
+#include <QTimer>
 
 class Blinker : public QObject
 {

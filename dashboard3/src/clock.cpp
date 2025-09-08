@@ -1,4 +1,6 @@
 #include "clock.h"
+#include <QTime>
+#include <QDate>
 
 Clock::Clock(QObject *parent) : QObject(parent) {
     updateDateTime();

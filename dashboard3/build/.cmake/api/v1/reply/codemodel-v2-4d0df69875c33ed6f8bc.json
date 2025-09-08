@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-75ca62a645aa61874edc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "eko_dash2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "appeko_dashboard::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appeko_dashboard-Debug-f289f3400b2852754600.json",
+					"name" : "appeko_dashboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appeko_dashboard_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appeko_dashboard_autogen-Debug-391e0648a1d4fed0ed03.json",
+					"name" : "appeko_dashboard_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appeko_dashboard_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appeko_dashboard_autogen_timestamp_deps-Debug-9b8c9345ff411b8296c9.json",
+					"name" : "appeko_dashboard_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appeko_dashboard_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appeko_dashboard_qmlimportscan-Debug-c101e96dc3fd36a00585.json",
+					"name" : "appeko_dashboard_qmlimportscan",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build",
+		"source" : "/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

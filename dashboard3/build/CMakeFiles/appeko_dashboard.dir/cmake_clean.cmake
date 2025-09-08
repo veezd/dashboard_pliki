@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/appeko_dashboard.dir/src/can.cpp.o.d"
   "CMakeFiles/appeko_dashboard.dir/src/clock.cpp.o"
   "CMakeFiles/appeko_dashboard.dir/src/clock.cpp.o.d"
+  "CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.o"
+  "CMakeFiles/appeko_dashboard.dir/src/dbc.cpp.o.d"
   "CMakeFiles/appeko_dashboard.dir/src/main.cpp.o"
   "CMakeFiles/appeko_dashboard.dir/src/main.cpp.o.d"
   "CMakeFiles/appeko_dashboard.dir/src/system.cpp.o"

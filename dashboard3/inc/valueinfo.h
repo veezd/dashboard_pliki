@@ -1,7 +1,8 @@
 #ifndef VALUEINFO_H
 #define VALUEINFO_H
 
-#include "includes.h"
+#include <QObject>
+#include <QVariant>
 
 class ValueInfo : public QObject {
     Q_OBJECT
