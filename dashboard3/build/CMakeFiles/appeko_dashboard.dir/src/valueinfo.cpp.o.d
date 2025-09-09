@@ -342,4 +342,7 @@ CMakeFiles/appeko_dashboard.dir/src/valueinfo.cpp.o: \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qvarlengtharray.h \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/q23utility.h \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/q20utility.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qobject.h
+ /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qobject.h \
+ /usr/include/c++/9/iostream \
+ /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QMetaType \
+ /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qmetatype.h

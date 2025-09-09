@@ -19,11 +19,11 @@ struct deviceInfo {<
 
 deviceInfo deviceList[] = {
     {0x10, {0, 8, 1, 0.0,"uint"} , 0},// Battery 0 - 100
-    {0x01, {0, 8, 1, 0.0,"int"} , 0},// Temperature -80 - 80 I guess
+    {0x01, {0, 8, 1, 0.0,"int8_t"} , 0},// Temperature -80 - 80 I guess
     {0x02, {0, 16, 1, 0.0,"uint"} , 0},// Mileage 0 - 65535 km, perla raczej nie zrobi wiecej
     {0x03, {0, 8, 1, 0.0,"uint"} , 0},// Speedometer 0 - 255
     {0x04, {0, 8, 1, 0.0,"char"} , 0},// Drivemode, narazie podawane poprostu jako literki w hex, nwm jak to bedzie dzialac z reszta auta
-    {0x05, {0, 5, 1, 0.0,"int"} , 0},// Engine power -10 <> 20 plus minus
+    {0x05, {0, 8, 1, 0.0,"int8_t"} , 0},// Engine power -10 <> 20 plus minus
     {0x06, {0, 1, 1, 0.0,"bool"} , 0},// Low beam
     {0x07, {0, 1, 1, 0.0,"bool"} , 0},// High beam
     {0x08, {0, 1, 1, 0.0,"bool"} , 0},// Parking lights

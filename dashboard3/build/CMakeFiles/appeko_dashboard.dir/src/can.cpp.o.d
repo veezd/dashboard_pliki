@@ -178,4 +178,4 @@ CMakeFiles/appeko_dashboard.dir/src/can.cpp.o: \
  /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/istream \
  /usr/include/c++/9/bits/istream.tcc \
  /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/dbc.h \
- /usr/include/c++/9/cstddef
+ /usr/include/c++/9/cstddef /usr/include/c++/9/bitset

@@ -428,6 +428,8 @@ CMakeFiles/appeko_dashboard.dir/src/system.cpp.o: \
  /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/valueinfo.h \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QVariant \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qvariant.h \
+ /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QMetaType \
+ /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qmetatype.h \
  /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/blinker.h \
  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/QQmlContext \
  /home/igor/Qt/6.9.2/gcc_64/include/QtQml/qqmlcontext.h

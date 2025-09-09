@@ -2,10 +2,22 @@
 #include <QQmlContext>
 
 double decodeRawData(const deviceInfo* devInfo) {
-    if (devInfo->specs.dataType == "uint") { return static_cast<uint>(devInfo->rawData) * devInfo->specs.factor + devInfo->specs.offset; } 
-    if (devInfo->specs.dataType == "int") { return static_cast<int>(devInfo->rawData) * devInfo->specs.factor + devInfo->specs.offset; } 
-    if (devInfo->specs.dataType == "char") { return static_cast<char>(devInfo->rawData) * devInfo->specs.factor + devInfo->specs.offset; } 
-    if (devInfo->specs.dataType == "bool") { return static_cast<bool>(devInfo->rawData) * devInfo->specs.factor + devInfo->specs.offset; } // Zakladam ze tu factor itd nie bedzie potrzebny
+    if (devInfo->specs.dataType == "uint") { 
+        //std::cout << "DECODE_RAW_DATA uint : " << static_cast<uint>(devInfo->rawData) << std::endl; // DEBUG
+        return static_cast<uint>(devInfo->rawData) * devInfo->specs.factor + devInfo->specs.offset; 
+    } 
+
+    if (devInfo->specs.dataType == "int8_t") { // Problemy z rzutowaniem, zakladam ze dla kazdego rozmiaru inta bede musial robic osobna implementacje, polecam poczytac co to kod uzupelnien do dwoch, zeby dostac ujemna liczbe 00001000 > negujesz > 11110111 > dodajesz 1 > 11111000
+        //std::cout << "DECODE_RAW_DATA int8_t : " << static_cast<int>(static_cast<int8_t>(devInfo->rawData)) << std::endl; // DEBUG
+        return static_cast<int>(static_cast<int8_t>(devInfo->rawData)) * devInfo->specs.factor + devInfo->specs.offset; 
+    } // W int trzeba uzyc podwojnego rzutowania bo rawData jest typu uint wiec inaczej nie zrozumie ze ujemna.
+
+    if (devInfo->specs.dataType == "char") { 
+        return static_cast<uint>(devInfo->rawData); // Narazie jest na uint bo nie wiem jaki bedzie sygnal, wiec 0-P 2-R bla bla bla
+    }
+    
+    if (devInfo->specs.dataType == "bool") { return static_cast<bool>(devInfo->rawData); } // Zakladam ze tu factor itd nie bedzie potrzebny
+
     else {
         std::cout << "Nieznany typ sygnału" << std::endl;
         return 0.0;
@@ -31,7 +43,7 @@ void passToSystem(deviceInfo *devInfo, System* system){
         break;
     }
     case 0x04: { // Drivemode (char)
-        system->drivemode.setValue(decodeRawData(devInfo));
+        system->drivemode.setGear(decodeRawData(devInfo));
         break;
     }
     case 0x05: { // Engine power
@@ -84,20 +96,20 @@ void passToSystem(deviceInfo *devInfo, System* system){
 System::System(QQmlApplicationEngine* engine, const std::string &bus_name) :
     run_(false),
     can(bus_name), 
-    battery(QVariant::fromValue<int>(0)), 
-    temperature(QVariant::fromValue<int>(0)),
-    mileage(QVariant::fromValue<uint>(0)),
-    speedometer(QVariant::fromValue<uint>(0)),
-    drivemode(QVariant::fromValue<QString>("P")),
-    engine_power(QVariant::fromValue<int>(0)),
-    low_beam(QVariant::fromValue<bool>(false)),
-    high_beam(QVariant::fromValue<bool>(false)),
-    parking_lights(QVariant::fromValue<bool>(false)),
-    hazard_lights(QVariant::fromValue<bool>(false)),
-    high_temperature(QVariant::fromValue<bool>(false)),
-    engine_failure(QVariant::fromValue<bool>(false)),
-    power_failure(QVariant::fromValue<bool>(false)),
-    cruise_control(QVariant::fromValue<bool>(false))
+    battery(QMetaType(QMetaType::UInt)),
+    temperature(QMetaType(QMetaType::Int)),
+    mileage(QMetaType(QMetaType::UInt)),
+    speedometer(QMetaType(QMetaType::UInt)),
+    drivemode(QMetaType(QMetaType::Char), "P"), // Zaklada ze skrzynia biegow bedzie zwracac jakas sb liczbe
+    engine_power(QMetaType(QMetaType::Int)),
+    low_beam(QMetaType(QMetaType::Bool)),
+    high_beam(QMetaType(QMetaType::Bool)),
+    parking_lights(QMetaType(QMetaType::Bool)),
+    hazard_lights(QMetaType(QMetaType::Bool)),
+    high_temperature(QMetaType(QMetaType::Bool)),
+    engine_failure(QMetaType(QMetaType::Bool)),
+    power_failure(QMetaType(QMetaType::Bool)),
+    cruise_control(QMetaType(QMetaType::Bool))
     //open_door(QVariant::fromValue<bool>(false)) Narazie nie uzywamy
     //blinker i clock maja konstruktory domyslne
 {

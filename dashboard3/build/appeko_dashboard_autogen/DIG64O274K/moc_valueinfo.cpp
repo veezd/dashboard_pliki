@@ -41,23 +41,17 @@ template <> constexpr inline auto ValueInfo::qt_create_metaobjectdata<qt_meta_ta
         "ValueInfo",
         "valueChanged",
         "",
-        "setValue",
-        "QVariant",
-        "newValue",
-        "value"
+        "value",
+        "QVariant"
     };
 
     QtMocHelpers::UintData qt_methods {
         // Signal 'valueChanged'
         QtMocHelpers::SignalData<void()>(1, 2, QMC::AccessPublic, QMetaType::Void),
-        // Method 'setValue'
-        QtMocHelpers::MethodData<void(QVariant)>(3, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { 0x80000000 | 4, 5 },
-        }}),
     };
     QtMocHelpers::UintData qt_properties {
         // property 'value'
-        QtMocHelpers::PropertyData<QVariant>(6, 0x80000000 | 4, QMC::DefaultPropertyFlags | QMC::Writable | QMC::EnumOrFlag | QMC::StdCppSet, 0),
+        QtMocHelpers::PropertyData<QVariant>(3, 0x80000000 | 4, QMC::DefaultPropertyFlags | QMC::Writable | QMC::EnumOrFlag | QMC::StdCppSet, 0),
     };
     QtMocHelpers::UintData qt_enums {
     };
@@ -80,7 +74,6 @@ void ValueInfo::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->valueChanged(); break;
-        case 1: _t->setValue((*reinterpret_cast< std::add_pointer_t<QVariant>>(_a[1]))); break;
         default: ;
         }
     }
@@ -123,14 +116,14 @@ int ValueInfo::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 1)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 1;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 2)
+        if (_id < 1)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 2;
+        _id -= 1;
     }
     if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
             || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty

@@ -20,6 +20,7 @@ appeko_dashboard_autogen/timestamp: /home/igor/Documents/projects_cpp/dashboard_
   /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/main.cpp \
   /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/system.cpp \
   /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/valueinfo.cpp \
+  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QMetaType \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QObject \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QString \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QTimer \
@@ -902,6 +903,7 @@ appeko_dashboard_autogen/timestamp: /home/igor/Documents/projects_cpp/dashboard_
   /usr/include/c++/9/initializer_list \
   /usr/include/c++/9/ios \
   /usr/include/c++/9/iosfwd \
+  /usr/include/c++/9/iostream \
   /usr/include/c++/9/istream \
   /usr/include/c++/9/iterator \
   /usr/include/c++/9/limits \
@@ -1209,6 +1211,8 @@ appeko_dashboard_autogen/timestamp: /home/igor/Documents/projects_cpp/dashboard_
 /usr/include/c++/9/memory:
 
 /usr/include/c++/9/limits:
+
+/usr/include/c++/9/iostream:
 
 /usr/include/c++/9/iosfwd:
 
@@ -1740,9 +1744,7 @@ appeko_dashboard_autogen/timestamp: /home/igor/Documents/projects_cpp/dashboard_
 
 /home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3styleimplpluginTargets.cmake:
 
-/usr/include/c++/9/bits/move.h:
-
-/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6ExamplesAssetDownloaderPrivate/Qt6ExamplesAssetDownloaderPrivateConfigVersion.cmake:
+/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3styleimplpluginConfig.cmake:
 
 /home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake:
 
@@ -2052,6 +2054,10 @@ appeko_dashboard_autogen/timestamp: /home/igor/Documents/projects_cpp/dashboard_
 
 /home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake:
 
+/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateVersionlessAliasTargets.cmake:
+
+/home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtenvironmentvariables.h:
+
 /usr/include/c++/9/unordered_map:
 
 /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtclasshelpermacros.h:
@@ -2108,6 +2114,20 @@ appeko_dashboard_autogen/timestamp: /home/igor/Documents/projects_cpp/dashboard_
 
 /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qstringmatcher.h:
 
+/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Quick/Qt6QuickAdditionalTargetInfo.cmake:
+
+/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginTargets-relwithdebinfo.cmake:
+
+/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateTargets.cmake:
+
+/usr/share/cmake-4.1/Modules/FeatureSummary.cmake:
+
+/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake:
+
+/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6QmlTools/Qt6QmlToolsTargets-relwithdebinfo.cmake:
+
+/home/igor/Qt/6.9.2/gcc_64/include/QtCore/qshareddata.h:
+
 /home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfig.cmake:
 
 /home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake:
@@ -2148,31 +2168,9 @@ appeko_dashboard_autogen/timestamp: /home/igor/Documents/projects_cpp/dashboard_
 
 /home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwavefrontmeshpluginAdditionalTargetInfo.cmake:
 
-/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/valueinfo.h:
-
-/home/igor/Qt/6.9.2/gcc_64/include/QtCore/qabstracteventdispatcher.h:
-
-/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake:
-
 /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/can.h:
 
 /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qbasicatomic.h:
-
-/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Quick/Qt6QuickAdditionalTargetInfo.cmake:
-
-/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginTargets-relwithdebinfo.cmake:
-
-/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateTargets.cmake:
-
-/home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtformat_impl.h:
-
-/usr/share/cmake-4.1/Modules/FeatureSummary.cmake:
-
-/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake:
-
-/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6QmlTools/Qt6QmlToolsTargets-relwithdebinfo.cmake:
-
-/home/igor/Qt/6.9.2/gcc_64/include/QtCore/qshareddata.h:
 
 /usr/include/wctype.h:
 
@@ -2183,10 +2181,6 @@ appeko_dashboard_autogen/timestamp: /home/igor/Documents/projects_cpp/dashboard_
 /home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake:
 
 CMakeFiles/4.1.1/CMakeSystem.cmake:
-
-/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/can.cpp:
-
-/home/igor/Qt/6.9.2/gcc_64/include/QtCore/q20type_traits.h:
 
 /home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginTargets.cmake:
 
@@ -2272,6 +2266,10 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick2pluginAdditionalTargetInfo.cmake:
 
+/home/igor/Qt/6.9.2/gcc_64/include/QtCore/q20type_traits.h:
+
+/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/can.cpp:
+
 /home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6QmlMeta/Qt6QmlMetaTargets-relwithdebinfo.cmake:
 
 /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/valueinfo.cpp:
@@ -2286,17 +2284,15 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qstdlibdetection.h:
 
-/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake:
+/usr/include/c++/9/bits/move.h:
 
-/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:
+/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6ExamplesAssetDownloaderPrivate/Qt6ExamplesAssetDownloaderPrivateConfigVersion.cmake:
 
-/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Qml/Qt6QTcpServerConnectionFactoryPluginConfig.cmake:
+/home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtformat_impl.h:
 
-/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateDependencies.cmake:
+/home/igor/Qt/6.9.2/gcc_64/include/QtCore/QMetaType:
 
-/home/igor/Qt/6.9.2/gcc_64/include/QtCore/qmap.h:
-
-/home/igor/Qt/6.9.2/gcc_64/include/QtCore/qatomic_cxx11.h:
+/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagepluginTargets.cmake:
 
 /home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Concurrent/Qt6ConcurrentConfig.cmake:
 
@@ -2317,6 +2313,12 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 /home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6QmlMeta/Qt6QmlMetaConfig.cmake:
 
 /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qsystemdetection.h:
+
+/home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/valueinfo.h:
+
+/home/igor/Qt/6.9.2/gcc_64/include/QtCore/qabstracteventdispatcher.h:
+
+/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake:
 
 /usr/share/cmake-4.1/Modules/Platform/Linux-GNU-CXX.cmake:
 
@@ -2350,6 +2352,18 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake:
 
+/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:
+
+/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Qml/Qt6QTcpServerConnectionFactoryPluginConfig.cmake:
+
+/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateDependencies.cmake:
+
+/home/igor/Qt/6.9.2/gcc_64/include/QtCore/qmap.h:
+
+/home/igor/Qt/6.9.2/gcc_64/include/QtCore/qatomic_cxx11.h:
+
 /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qcontainertools_impl.h:
 
 /home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake:
@@ -2371,10 +2385,6 @@ appeko_dashboard_autogen/moc_predefs.h:
 /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h:
 
 /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qstringview.h:
-
-/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateVersionlessAliasTargets.cmake:
-
-/home/igor/Qt/6.9.2/gcc_64/include/QtCore/qtenvironmentvariables.h:
 
 /usr/share/cmake-4.1/Modules/GNUInstallDirs.cmake:
 
@@ -3170,8 +3180,6 @@ appeko_dashboard_autogen/moc_predefs.h:
 
 /home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagepluginConfig.cmake:
 
-/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagepluginTargets.cmake:
-
 /home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6QmlMetaPrivate/Qt6QmlMetaPrivateConfig.cmake:
 
 /home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginAdditionalTargetInfo.cmake:
@@ -3207,5 +3215,3 @@ appeko_dashboard_autogen/moc_predefs.h:
 /home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:
 
 /home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3styleimplpluginAdditionalTargetInfo.cmake:
-
-/home/igor/Qt/6.9.2/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3styleimplpluginConfig.cmake:

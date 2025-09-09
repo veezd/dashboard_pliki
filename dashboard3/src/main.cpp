@@ -8,7 +8,7 @@
 #include "system.h"
 
 /*TODO
-Naprawic rzutowanie static cast dla char i int
+
 Ogarnac const correctnes w backendize
 pousuwac zbedny kod, i dodac funkcje do debugowania
 dokonczyc skrypt w bashu do testow
@@ -31,6 +31,8 @@ int main(int argc, char *argv[]) {
     
     engine.load(QUrl("qrc:/qml/Main.qml"));
     if (engine.rootObjects().isEmpty()) {return -1;}
+
+    
 
     int appResult = app.exec();
 

@@ -454,4 +454,6 @@ CMakeFiles/appeko_dashboard.dir/src/main.cpp.o: \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QString \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qstring.h \
  /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/valueinfo.h \
+ /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QMetaType \
+ /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qmetatype.h \
  /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/blinker.h

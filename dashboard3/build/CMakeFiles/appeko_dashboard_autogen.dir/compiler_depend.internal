@@ -21,6 +21,7 @@
  /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/main.cpp
  /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/system.cpp
  /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/src/valueinfo.cpp
+ /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QMetaType
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QObject
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QString
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QTimer
@@ -903,6 +904,7 @@
  /usr/include/c++/9/initializer_list
  /usr/include/c++/9/ios
  /usr/include/c++/9/iosfwd
+ /usr/include/c++/9/iostream
  /usr/include/c++/9/istream
  /usr/include/c++/9/iterator
  /usr/include/c++/9/limits

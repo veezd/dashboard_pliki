@@ -1,5 +1,6 @@
 /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/appeko_dashboard_autogen/DIG64O274K/moc_valueinfo.cpp: /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/inc/valueinfo.h \
   /home/igor/Documents/projects_cpp/dashboard_pliki/dashboard3/build/appeko_dashboard_autogen/moc_predefs.h \
+  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QMetaType \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QObject \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QVariant \
   /home/igor/Qt/6.9.2/gcc_64/include/QtCore/q17memory.h \
@@ -238,6 +239,7 @@
   /usr/include/c++/9/initializer_list \
   /usr/include/c++/9/ios \
   /usr/include/c++/9/iosfwd \
+  /usr/include/c++/9/iostream \
   /usr/include/c++/9/istream \
   /usr/include/c++/9/iterator \
   /usr/include/c++/9/limits \

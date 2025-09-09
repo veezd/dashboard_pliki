@@ -360,4 +360,7 @@ CMakeFiles/appeko_dashboard.dir/appeko_dashboard_autogen/mocs_compilation.cpp.o:
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qhash.h \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qvarlengtharray.h \
  /home/igor/Qt/6.9.2/gcc_64/include/QtCore/q23utility.h \
- /home/igor/Qt/6.9.2/gcc_64/include/QtCore/q20utility.h
+ /home/igor/Qt/6.9.2/gcc_64/include/QtCore/q20utility.h \
+ /usr/include/c++/9/iostream \
+ /home/igor/Qt/6.9.2/gcc_64/include/QtCore/QMetaType \
+ /home/igor/Qt/6.9.2/gcc_64/include/QtCore/qmetatype.h
