@@ -22,6 +22,7 @@ int main(int argc, char *argv[]) {
     QGuiApplication app(argc, argv);
     
     QQmlApplicationEngine engine;
+    
     System system(&engine, "vcan0" );
 
     std::thread systemThread([&system]() {

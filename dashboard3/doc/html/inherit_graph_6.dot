@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="QT_WARNING_DISABLE\l_DEPRECATED::qt_meta\l_tag_ZN9ValueInfoE_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structQT__WARNING__DISABLE__DEPRECATED_1_1qt__meta__tag__ZN9ValueInfoE__t.html",tooltip=" "];
+}

@@ -1,0 +1,141 @@
+\hypertarget{classBlinker}{}\doxysection{Blinker Class Reference}
+\label{classBlinker}\index{Blinker@{Blinker}}
+
+
+Klasa odpowiedzialna za miganie/stan kierunkowskazów.  
+
+
+
+
+{\ttfamily \#include $<$blinker.\+h$>$}
+
+
+
+Inheritance diagram for Blinker\+:
+% FIG 0
+
+
+Collaboration diagram for Blinker\+:
+% FIG 1
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classBlinker_a9238f4f886f0d2d14fc40e3edf14b15d}{state\+Changed}} ()
+\begin{DoxyCompactList}\small\item\em (Sygnal) Emitowany, gdy zmienia się stan kierunkowskazu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBlinker_a0dcea1dc3bfb8d8c384aa18560b74b78}{blink\+Changed}} ()
+\begin{DoxyCompactList}\small\item\em (Sygnal) Emitowany co 500 ms podczas migania. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classBlinker_ab2908c337f4bf3e21da409fb987ad829}{Blinker}} (Q\+Object $\ast$parent=nullptr)
+\begin{DoxyCompactList}\small\item\em Konstruktor domyslny klasy, nie przyjmuje zadnych argumentow. W momencie powstania obiektu, tworzy tez timer z interwalem 500ms. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classBlinker_a75f4644c6d646960a55eb4b0c00ea69b}{state}} () const
+\begin{DoxyCompactList}\small\item\em Zwraca wartosc boolean ktora okresla czy kierunkowskaz jest wlaczony. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBlinker_a8e63f8de8da19346f1c2cfb59b02b76f}{new\+State}} (bool updated)
+\begin{DoxyCompactList}\small\item\em Ustawia stan kierunkowskazu (czyta z C\+A\+Na). \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classBlinker_a312b173ee4c8046f7b85cb97022efa71}{blink\+State}} () const
+\begin{DoxyCompactList}\small\item\em Zwraca stan migania kierunkowskazu (gdy wlaczony). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classBlinker_af7a51814778d7eafb61b294603bc04bb}\label{classBlinker_af7a51814778d7eafb61b294603bc04bb}} 
+bool {\bfseries state}
+\item 
+\mbox{\Hypertarget{classBlinker_aa92326275da688cabd6682656d1d7045}\label{classBlinker_aa92326275da688cabd6682656d1d7045}} 
+double {\bfseries blink\+State}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa odpowiedzialna za miganie/stan kierunkowskazów. 
+
+Klasa powiazania z Q\+ML przez Q\+\_\+\+P\+R\+O\+P\+E\+R\+TY Sygnaly\+:
+
+-\/bool state\+Changed -\/ mowi o zalaczeniu/wylaczeniu kierunkowskazu -\/double blink\+Changed -\/ uzywane z timerem, mruganie kierunkowskazu gdy jest zalaczony 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classBlinker_ab2908c337f4bf3e21da409fb987ad829}\label{classBlinker_ab2908c337f4bf3e21da409fb987ad829}} 
+\index{Blinker@{Blinker}!Blinker@{Blinker}}
+\index{Blinker@{Blinker}!Blinker@{Blinker}}
+\doxysubsubsection{\texorpdfstring{Blinker()}{Blinker()}}
+{\footnotesize\ttfamily Blinker\+::\+Blinker (\begin{DoxyParamCaption}\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Konstruktor domyslny klasy, nie przyjmuje zadnych argumentow. W momencie powstania obiektu, tworzy tez timer z interwalem 500ms. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & Wskaznik na obiekt rodzica (domyslnie nullptr) \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classBlinker_a0dcea1dc3bfb8d8c384aa18560b74b78}\label{classBlinker_a0dcea1dc3bfb8d8c384aa18560b74b78}} 
+\index{Blinker@{Blinker}!blinkChanged@{blinkChanged}}
+\index{blinkChanged@{blinkChanged}!Blinker@{Blinker}}
+\doxysubsubsection{\texorpdfstring{blinkChanged}{blinkChanged}}
+{\footnotesize\ttfamily void Blinker\+::blink\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+
+(Sygnal) Emitowany co 500 ms podczas migania. 
+
+Wywoływany w blink\+Edit(), aby frontend (np. Q\+ML) mógł odświeżyć opacity kierunkowskazów. \mbox{\Hypertarget{classBlinker_a312b173ee4c8046f7b85cb97022efa71}\label{classBlinker_a312b173ee4c8046f7b85cb97022efa71}} 
+\index{Blinker@{Blinker}!blinkState@{blinkState}}
+\index{blinkState@{blinkState}!Blinker@{Blinker}}
+\doxysubsubsection{\texorpdfstring{blinkState()}{blinkState()}}
+{\footnotesize\ttfamily double Blinker\+::blink\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Zwraca stan migania kierunkowskazu (gdy wlaczony). 
+
+\begin{DoxyReturn}{Returns}
+Wartosc double ktora w frontendzie jest opacity kierunowskazow 0.\+0 -\/ 1.\+0. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBlinker_a8e63f8de8da19346f1c2cfb59b02b76f}\label{classBlinker_a8e63f8de8da19346f1c2cfb59b02b76f}} 
+\index{Blinker@{Blinker}!newState@{newState}}
+\index{newState@{newState}!Blinker@{Blinker}}
+\doxysubsubsection{\texorpdfstring{newState()}{newState()}}
+{\footnotesize\ttfamily void Blinker\+::new\+State (\begin{DoxyParamCaption}\item[{bool}]{updated }\end{DoxyParamCaption})}
+
+
+
+Ustawia stan kierunkowskazu (czyta z C\+A\+Na). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em updated} & Nowy stan kierunkowskazu (true -\/ wlaczony, false -\/ wylaczony). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classBlinker_a75f4644c6d646960a55eb4b0c00ea69b}\label{classBlinker_a75f4644c6d646960a55eb4b0c00ea69b}} 
+\index{Blinker@{Blinker}!state@{state}}
+\index{state@{state}!Blinker@{Blinker}}
+\doxysubsubsection{\texorpdfstring{state()}{state()}}
+{\footnotesize\ttfamily bool Blinker\+::state (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Zwraca wartosc boolean ktora okresla czy kierunkowskaz jest wlaczony. 
+
+\begin{DoxyReturn}{Returns}
+true jezeli kierunkowskaz jest wlaczony, false jezeli wylaczony. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBlinker_a9238f4f886f0d2d14fc40e3edf14b15d}\label{classBlinker_a9238f4f886f0d2d14fc40e3edf14b15d}} 
+\index{Blinker@{Blinker}!stateChanged@{stateChanged}}
+\index{stateChanged@{stateChanged}!Blinker@{Blinker}}
+\doxysubsubsection{\texorpdfstring{stateChanged}{stateChanged}}
+{\footnotesize\ttfamily void Blinker\+::state\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+
+(Sygnal) Emitowany, gdy zmienia się stan kierunkowskazu. 
+
+Emitowany wewnątrz metody \mbox{\hyperlink{classBlinker_a8e63f8de8da19346f1c2cfb59b02b76f}{new\+State()}}, po ustawieniu current\+State\+\_\+. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+inc/blinker.\+h\item 
+src/blinker.\+cpp\end{DoxyCompactItemize}

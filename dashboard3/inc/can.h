@@ -28,8 +28,9 @@ class CAN{
         ifreq ifr{};
 };
 
-    deviceInfo matchDevice(can_frame *frame, deviceInfo* devList, size_t devCount);
-    void extractRawData(can_frame *frame, deviceInfo *devInfo);
+
+deviceInfo matchDevice(can_frame *frame, deviceInfo* devList, size_t devCount);
+void extractRawData(can_frame *frame, deviceInfo *devInfo);
     
 
 #endif // CAN_H

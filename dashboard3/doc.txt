@@ -1,0 +1,26 @@
+Dziala, dziala?
+
+wstepny zarys dzialania programu.
+
+1.w mainie tworzy sie obiekt System.
+	-podpinasz do niego twoj engine(tzn frontend), oraz nazwe CANA jakej bedzie uzywac, ale 
+	go nie uruchamia.
+	-W systemie sa wszystkie obiekty z UI z domyslnymi wartosciami, zarowno jak i 		komunikacja z CAN
+	
+2. Nastepnie tworzy sie rownolegly thread ktory jedyne co robi to startuje system.
+	-gdy system run_=true, (czyli po uzyciu system.start()) w petli while czyta sobie 
+	autorska metoda can.readFrame() info z CANa.
+		-readFrame() odczytuje can_frame z magistrali, nastepnie petla for przechodzi po
+		devList (liscie urzadzen w dbc) i wyszukuje urzadzenie o pasujacym ID w postaci
+		devInfo (tzn parametrow sygnalu, odchyl startbit itd), nastepnie extractRawData
+		przy pomocy wczesniejszej ramki i parametrow dopasowanych matchDevice, odczytuje 
+		surowe dane (a raczej nie odczytuje tylko przypisuje do pola rawData w deviceInfo
+		(to samo miejsce gdzie sa parametry sygnalu)
+	-po odczytaniu danych (tzn przypisaniu do deviceInfo ostatniego sygnalu), wywolywana jest
+	funckja pass to system (gdy id ramki != 0, ((uznalem ze to blad bedzie))) ktora na podst
+	id przekazanego deviceInfo na switchu przekazuje dane do odpowiedniego pola system, 
+	ktore jest juz polaczone z frontendem, tzn setValue mileage zmieni faktyczny przebieg
+
+3. po tym laduje sie plik Main.qml ktory zawiera w sobie caly interfejs i zwraca aplikacje front
+	-tyle ze thread z system.start dziala caly czas takze mozna zmieniac dane na froncie
+	w real time piszac cos w terminalu vcan0 send bla bla bla.
